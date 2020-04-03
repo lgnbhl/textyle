@@ -1,0 +1,21 @@
+Package: textyle
+Title: Add Beautiful Text Effects in your Shiny Apps
+Version: 0.1.0
+Authors@R: 
+    c(person(given = "Félix",
+           family = "Luginbuhl",
+           role = c("aut", "cre"),
+           email = "felix.luginbuhl@protonmail.ch")
+      )
+Description: Simple text effects with jQuery and tiny CSS thanks to 'Textyle.js'.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.0
+Imports: 
+    jsonlite,
+    htmltools
+Suggest:
+    shiny
+URL: https://felixluginbuhl.com/textyle, https://github.com/lgnbhl/textyle
+BugReports: https://github.com/lgnbhl/textyle/issues

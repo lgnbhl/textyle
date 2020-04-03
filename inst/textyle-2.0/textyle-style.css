@@ -1,0 +1,35 @@
+/*code sample from here*/
+/*
+[required code]
+parent {
+  opacity: 0;
+}
+parent span {
+  //translate effect
+  position: relative;
+  top: xxx;
+  left: xxx;
+  //fade effect
+  opacity: 0;
+}
+*/
+.ex1 {
+  opacity: 0;
+}
+.ex1 span {
+  position: relative;
+  top: 10px;
+  left: 10px;
+  opacity: 0;
+}
+
+.ex2 {
+  opacity: 0.5;
+}
+.ex2 span {
+  position: relative;
+  left: -10px;
+  opacity: 0;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
