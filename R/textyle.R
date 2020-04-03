@@ -48,10 +48,6 @@ textyle <- function(element, color = "coral", easing = "easeInCubic", transition
   )
 }
 
-# JS() from htmlwidgets
-# https://github.com/jeroen/jsonlite/issues/77
-# TODO: mettre ensemble les deux functions en une seule.
-
 html_dependencies_textyle <- function() {
   list(
     htmltools::htmlDependency(
