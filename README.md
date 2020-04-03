@@ -12,10 +12,9 @@ status](https://gitlab.com/lgnbhl/textyle/badges/master/pipeline.svg)](https://g
 
 The `textyle` package allows to reproduce the beautiful text effects
 from [Textyle.js](https://github.com/mycreatesite/Textyle.js/) in a
-Shiny
-app.
+Shiny app.
 
-![](https://user-images.githubusercontent.com/38127448/50680443-11477c80-104b-11e9-88a8-ec95cccd62af.gif)
+![](man/figures/textyle_example.gif)
 
 ### Shiny
 

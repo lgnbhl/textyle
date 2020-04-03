@@ -6,3 +6,4 @@
 ^_pkgdown.yml
 ^data-raw
 ^.gitlab-ci.yml
+^man/figures/textyle_example.gif
