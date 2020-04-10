@@ -23,22 +23,17 @@ To animate a text, simply call `textyle()` on any tag element from `tags()`.
 library(shiny)
 library(textyle)
  
-ui <- function(){
- fluidPage(
-   align = "center",
-   br(), br(), br(),
-   textyle(tags$p("TEXTYLE", style = "font-size:7rem;font-weight:900;")),
-   textOutput("text")
-  )
-}
-
-server <- function(input, output, session){
-  output$text <- renderText({
-    print("- Simple Text Effect -")
-  })
-}
-
-shinyApp(ui, server)
+shinyApp(
+  ui = fluidPage(
+      align = "center",
+      br(), br(), br(),
+      textyle(tags$p("TEXTYLE", style = "font-size:7rem;font-weight:900;")),
+      textOutput("text")
+  ),
+  server = function(input, output){
+    output$text <- renderText({ print("- Simple Text Effect -") })
+  }
+)
 ```
 
 ### Customize it
