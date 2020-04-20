@@ -1,5 +1,5 @@
 Package: textyle
-Title: Add Beautiful Text Effects in your Shiny Apps
+Title: Simple Text Effects in Shiny
 Version: 0.1.0
 Authors@R: 
     c(person(given = "Félix",

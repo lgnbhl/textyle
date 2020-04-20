@@ -61,6 +61,16 @@ html_dependencies_textyle <- function() {
       script = "textyle.js"
     ),
     htmltools::htmlDependency(
+      name = "textylecss",
+      version = "2.0",
+      package = "textyle",
+      src = c(
+        file = "textyle-2.0",
+        url = ""
+      ),
+      stylesheet = "textyle-style.css"
+    ),
+    htmltools::htmlDependency(
       name = "jquery.easing",
       version = "1.4.1",
       package = "textyle",
@@ -69,16 +79,6 @@ html_dependencies_textyle <- function() {
         url = ""
       ),
       script = "jquery.easing.min.js"
-    ),
-    htmltools::htmlDependency(
-      name = "textyle-css",
-      version = "2.0",
-      package = "textyle",
-      src = c(
-        file = "textyle-2.0",
-        url = ""
-      ),
-      stylesheet = "textyle-style.css"
     )
   )
 }

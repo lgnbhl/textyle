@@ -16,6 +16,15 @@ Shiny app.
 
 ![](man/figures/textyle_example.gif)
 
+## Usage
+
+Install textyle from GitHub.
+
+``` r
+# install.packages("remotes")
+remotes::install_github("lgnbhl/gotop")
+```
+
 ### Shiny
 
 To animate a text, simply call `textyle()` on any tag element from

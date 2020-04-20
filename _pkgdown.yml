@@ -23,3 +23,4 @@ reference:
   - title: "Functions"
     contents: 
       - textyle
+      - use_textyle

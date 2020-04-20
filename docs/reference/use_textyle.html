@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Function reference • textyle</title>
+<title>Load Textyle dependencies — use_textyle • textyle</title>
 
 <!-- favicons -->
 <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
@@ -42,7 +42,8 @@
 
 
 
-<meta property="og:title" content="Function reference" />
+<meta property="og:title" content="Load Textyle dependencies — use_textyle" />
+<meta property="og:description" content="Load textyle dependencies, i.e textylejs, textylecss and jquery.easing" />
 <meta property="og:image" content="/logo.png" />
 <meta name="twitter:card" content="summary" />
 
@@ -73,7 +74,7 @@
   </head>
 
   <body>
-    <div class="container template-reference-index">
+    <div class="container template-reference-topic">
       <header>
       <div class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container">
@@ -135,48 +136,78 @@
       </header>
 
 <div class="row">
-  <div class="contents col-md-9">
+  <div class="col-md-9 contents">
     <div class="page-header">
-      <h1>Reference</h1>
+    <h1>Load Textyle dependencies</h1>
+    <small class="dont-index">Source: <a href='https://github.com/lgnbhl/textyle/blob/master/R/use_textyle.R'><code>R/use_textyle.R</code></a></small>
+    <div class="hidden name"><code>use_textyle.Rd</code></div>
     </div>
 
-    <table class="ref-index">
+    <div class="ref-description">
+    <p>Load textyle dependencies, i.e textylejs, textylecss and jquery.easing</p>
+    </div>
 
-    <colgroup>
-      
-      <col class="alias" />
-      <col class="title" />
-    </colgroup>
+    <pre class="usage"><span class='fu'>use_textyle</span>()</pre>
 
-    <tbody>
-      <tr>
-        <th colspan="2">
-          <h2 id="section-functions" class="hasAnchor"><a href="#section-functions" class="anchor"></a>Functions</h2>
-          <p class="section-desc"></p>
-        </th>
-      </tr>
-      <tr>
-        
-        <td>
-          <p><code><a href="textyle.html">textyle()</a></code> </p>
-        </td>
-        <td><p>Animate an text element</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="use_textyle.html">use_textyle()</a></code> </p>
-        </td>
-        <td><p>Load Textyle dependencies</p></td>
-      </tr>
-    </tbody>
-    </table>
+
+
+    <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
+    <pre class="examples"><div class='input'><span class='fu'>use_textyle</span>()</div><div class='output co'>#&gt; [[1]]
+#&gt; List of 10
+#&gt;  $ name      : chr "textyle"
+#&gt;  $ version   : chr "2.0"
+#&gt;  $ src       :List of 2
+#&gt;   ..$ file: chr "textyle-2.0"
+#&gt;   ..$ url : chr ""
+#&gt;  $ meta      : NULL
+#&gt;  $ script    : chr "textyle.js"
+#&gt;  $ stylesheet: NULL
+#&gt;  $ head      : NULL
+#&gt;  $ attachment: NULL
+#&gt;  $ package   : chr "textyle"
+#&gt;  $ all_files : logi TRUE
+#&gt;  - attr(*, "class")= chr "html_dependency"
+#&gt; 
+#&gt; [[2]]
+#&gt; List of 10
+#&gt;  $ name      : chr "textylecss"
+#&gt;  $ version   : chr "2.0"
+#&gt;  $ src       :List of 2
+#&gt;   ..$ file: chr "textyle-2.0"
+#&gt;   ..$ url : chr ""
+#&gt;  $ meta      : NULL
+#&gt;  $ script    : NULL
+#&gt;  $ stylesheet: chr "textyle-style.css"
+#&gt;  $ head      : NULL
+#&gt;  $ attachment: NULL
+#&gt;  $ package   : chr "textyle"
+#&gt;  $ all_files : logi TRUE
+#&gt;  - attr(*, "class")= chr "html_dependency"
+#&gt; 
+#&gt; [[3]]
+#&gt; List of 10
+#&gt;  $ name      : chr "jquery.easing"
+#&gt;  $ version   : chr "1.4.1"
+#&gt;  $ src       :List of 2
+#&gt;   ..$ file: chr "jquery.easing-1.4.1"
+#&gt;   ..$ url : chr ""
+#&gt;  $ meta      : NULL
+#&gt;  $ script    : chr "jquery.easing.min.js"
+#&gt;  $ stylesheet: NULL
+#&gt;  $ head      : NULL
+#&gt;  $ attachment: NULL
+#&gt;  $ package   : chr "textyle"
+#&gt;  $ all_files : logi TRUE
+#&gt;  - attr(*, "class")= chr "html_dependency"
+#&gt; </div><div class='input'>
+</div></pre>
   </div>
-
   <div class="col-md-3 hidden-xs hidden-sm" id="sidebar">
     <h2>Contents</h2>
     <ul class="nav nav-pills nav-stacked">
-      <li><a href="#section-functions">Functions</a></li>
+      <li><a href="#examples">Examples</a></li>
     </ul>
+
   </div>
 </div>
 

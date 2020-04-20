@@ -2,15 +2,14 @@
 % Please edit documentation in R/use_textyle.R
 \name{use_textyle}
 \alias{use_textyle}
-\title{Use Textyle}
+\title{Load Textyle dependencies}
 \usage{
 use_textyle()
 }
 \description{
-Load textyle dependencies
+Load textyle dependencies, i.e textylejs, textylecss and jquery.easing
 }
 \examples{
-
 use_textyle()
 
 }

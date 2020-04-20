@@ -15,6 +15,15 @@ The `textyle` package allows to reproduce the beautiful text effects from [Texty
 
 ![](man/figures/textyle_example.gif)
 
+## Usage
+
+Install textyle from GitHub.
+
+```{r install github, eval = FALSE}
+# install.packages("remotes")
+remotes::install_github("lgnbhl/gotop")
+```
+
 ### Shiny
 
 To animate a text, simply call `textyle()` on any tag element from `tags()`.
