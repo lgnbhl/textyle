@@ -38,7 +38,7 @@ textyle <- function(element, color = "coral", easing = "easeInCubic", transition
     html_dependencies_textyle(),
     htmltools::tags$script(
       sprintf(
-        paste0("$(window).on('load',function(){
+        paste0("$(document).ready(function(){
             $('.", class,"').textyle(%s);
         });"),
         options
