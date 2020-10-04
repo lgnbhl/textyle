@@ -4,8 +4,11 @@ output: github_document
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
+<!-- badges: start -->
 [![CRAN status](https://www.r-pkg.org/badges/version/textyle)](https://CRAN.R-project.org/package=textyle)
 [![pipeline status](https://gitlab.com/lgnbhl/textyle/badges/master/pipeline.svg)](https://gitlab.com/lgnbhl/textyle/pipelines)
+[![R build status](https://github.com/lgnbhl/textyle/workflows/R-CMD-check/badge.svg)](https://github.com/lgnbhl/textyle/actions)
+<!-- badges: end -->
 
 # textyle <img src="man/figures/logo.png" align="right" />
 

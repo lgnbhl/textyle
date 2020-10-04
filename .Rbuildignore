@@ -7,3 +7,4 @@
 ^data-raw
 ^.gitlab-ci.yml
 ^man/figures/textyle_example.gif
+^\.github$
