@@ -3,10 +3,10 @@
 
 <!-- badges: start -->
 
+[![Lifecycle:
+experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
 [![CRAN
 status](https://www.r-pkg.org/badges/version/textyle)](https://CRAN.R-project.org/package=textyle)
-[![pipeline
-status](https://gitlab.com/lgnbhl/textyle/badges/master/pipeline.svg)](https://gitlab.com/lgnbhl/textyle/pipelines)
 [![R build
 status](https://github.com/lgnbhl/textyle/workflows/R-CMD-check/badge.svg)](https://github.com/lgnbhl/textyle/actions)
 <!-- badges: end -->
