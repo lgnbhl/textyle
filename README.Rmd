@@ -24,7 +24,7 @@ Install textyle from GitHub.
 
 ```{r install github, eval = FALSE}
 # install.packages("remotes")
-remotes::install_github("lgnbhl/gotop")
+remotes::install_github("lgnbhl/textyle")
 ```
 
 ### Shiny
